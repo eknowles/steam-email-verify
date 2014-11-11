@@ -1,0 +1,46 @@
+{
+  "name": "steam-email-verify",
+  "version": "0.0.0",
+  "main": "lib/steam-email-verify.js",
+  "description": "Popup incoming Auth codes and email verifications",
+  "homepage": "http://eknowles.com",
+  "bugs": "https://github.com/eknowles/steam-email-verify/issues",
+  "author": {
+    "name": "Edward Knowles",
+    "email": "mail@eknowles.com",
+    "url": "http://eknowles.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eknowles/steam-email-verify"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "steam-email-verify",
+    "steam"
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "grunt-mocha-cli": "^1.9.0",
+    "jshint-stylish": "^0.2.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "dialog": "~0.1.8",
+    "cheerio": "~0.18.0",
+    "request": "~2.47.0",
+    "util": "~0.10.3",
+    "events": "~1.0.2",
+    "winston": "~0.8.3",
+    "imap": "~0.8.14"
+  }
+}
