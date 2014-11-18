@@ -1,5 +1,6 @@
 /node_modules/
 /.idea
 example/config.js
+example/db.json
 npm-debug.log
 .env

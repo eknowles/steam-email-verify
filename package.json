@@ -42,6 +42,11 @@
     "events": "~1.0.2",
     "winston": "~0.8.3",
     "imap": "~0.8.14",
-    "mail-listener2": "~0.1.7"
+    "mail-listener2": "~0.1.7",
+    "MD5": "~1.2.1",
+    "lowdb": "~0.5.1",
+    "steam": "~0.6.7",
+    "exec-sync": "~0.1.6",
+    "jsbn": "0.0.0"
   }
 }

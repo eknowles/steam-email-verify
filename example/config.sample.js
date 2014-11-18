@@ -13,5 +13,7 @@ module.exports = {
   fetchUnreadOnStart: true, // use it only if you want to get all unread email on lib start. Default is `false`,
   mailParserOptions: {streamAttachments: true}, // options to be passed to mailParser lib.
   attachments: false, // download attachments as they are encountered to the project directory
-  attachmentOptions: {directory: "attachments/"} // specify a download directory for attachments
+  attachmentOptions: {directory: "attachments/"}, // specify a download directory for attachments
+  steamPasswordSecret: "(*)&$",
+  lowDB: 'db.json'
 };
